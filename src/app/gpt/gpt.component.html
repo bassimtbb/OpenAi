@@ -9,16 +9,16 @@
                 <button class="btn btn-success">Ask GPT</button>
             </form>
             <div class="alert alert-success" >
-                <!-- <pre> {{result|json}}</pre>  -->
+              
            
                   <ul class="list-group">
                     <li class="list-group-item" *ngFor="let message of messages">
-                        {{message.role}} : {{message.content}}
+                        <pre>{{message.role}} : {{message.content}}</pre>
                     </li>
                 </ul>
             </div>
               
             
         </div>
-    </div>
+    </div>  
 </div>
